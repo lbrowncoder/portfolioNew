@@ -1,30 +1,30 @@
 .me {
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+ text-align: center;
+ margin-top: 5rem;
+ margin-bottom: 3rem;
 }
 
 .about {
-    height: 500px;
-    width: 100%;
-    background-color: white;
+ height: 500px;
+ width: 100%;
+ background-color: white;
 }
 
 .bootcamp {
-    text-align: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    font-size: 1.2rem;
+ text-align: center;
+ margin-left: 3rem;
+ margin-right: 3rem;
+ font-size: 1.2rem;
 }
 
 .role {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+ text-align: center;
+ font-size: 1.2rem;
+ margin-left: 3rem;
+ margin-right: 3rem;
 }
 
 .cv {
-  text-align: center;
-  margin-top: 5rem;
+ text-align: center;
+ margin-top: 5rem;
 }

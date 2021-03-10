@@ -1,54 +1,53 @@
 .work {
-    display: inline-flex;
-    gap:70px;
-    margin-left: 7rem;
-    background-color: white;
-    height: 570px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: lightgray;
-    
+ display: inline-flex;
+ gap: 70px;
+ margin-left: 7rem;
+ background-color: white;
+ height: 570px;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+ background-color: lightgray;
 }
 
 .portfolio {
-    text-align: center;    
-    padding-top: 60px;
+ text-align: center;
+ padding-top: 60px;
 }
 
 .card-title {
-    text-align: center;
-    padding-top: 9px;
-    font-weight: bold;
+ text-align: center;
+ padding-top: 9px;
+ font-weight: bold;
 }
 
 .card {
-    border: solid 1px;
+ border: solid 1px;
 }
 
-.card-link{
-    text-align: center;
-    margin-left: 20%;
+.card-link {
+ text-align: center;
+ margin-left: 20%;
 }
 
 .card {
-    height: 500px;
+ height: 500px;
 }
 .used {
-    list-style: square;
-    font-style: italic;
-    margin-left: 25%;
+ list-style: square;
+ font-style: italic;
+ margin-left: 25%;
 }
 
 .card-img-top {
-    padding: 3px;
+ padding: 3px;
 }
 
 .listTech {
-    text-align: center;
-    margin-top: 60px;
-    font-weight: bold;
+ text-align: center;
+ margin-top: 60px;
+ font-weight: bold;
 }
 
 .mainport {
-    background-color: lightgray;
+ background-color: lightgray;
 }
