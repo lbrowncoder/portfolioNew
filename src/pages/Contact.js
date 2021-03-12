@@ -4,14 +4,12 @@ import "../pages/Contact.css";
 const Contact = () => {
  return (
   <div className="contact" id="contact">
-   <div className="me">
     <p className="connect">Connect with me</p>
-   </div>
    <div className="location">
     <img
      src="/images/location.svg"
-     height="60px"
-     width="60px"
+     height="40px"
+     width="40px"
      className="contactIcon"
     />
     <p className="midlands">West Midlands, England</p>

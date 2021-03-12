@@ -1,9 +1,10 @@
 .work {
- display: inline-flex;
- gap: 70px;
- margin-left: 7rem;
+ display: flex;
+ flex-wrap: wrap;
+ height:fit-content;
+ justify-content: space-evenly;
  background-color: white;
- height: 570px;
+ min-height: 100vh;
  padding-top: 3rem;
  padding-bottom: 3rem;
  background-color: lightgray;
@@ -11,7 +12,7 @@
 
 .portfolio {
  text-align: center;
- padding-top: 60px;
+ padding-top: 3rem;
 }
 
 .card-title {
@@ -22,6 +23,7 @@
 
 .card {
  border: solid 1px;
+border-style: double;
 }
 
 .card-link {
@@ -44,7 +46,7 @@
 
 .listTech {
  text-align: center;
- margin-top: 60px;
+ margin-top: 20px;
  font-weight: bold;
 }
 

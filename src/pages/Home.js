@@ -6,8 +6,8 @@ import comp from "../images/comp.jpg";
 const Home = () => {
  return (
   <>
-   <div className="comp">
-    <div className="homePage" id="home">
+   <div className="comp" id="home">
+    <div className="homePage" >
      <p className="hello">Hello</p>
      <h2 className="name">My name is Lamara</h2>
      <p className="im">

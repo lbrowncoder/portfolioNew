@@ -45,7 +45,7 @@ const NavBar = () => {
         offset={0}
         duration={500}
        >
-        Work
+        Portfolio
        </Link>
       </li>
       <li className="links">
@@ -57,7 +57,7 @@ const NavBar = () => {
         offset={0}
         duration={500}
        >
-        Technogies
+        Tech Stack
        </Link>
       </li>
 

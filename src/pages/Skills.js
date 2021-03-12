@@ -5,7 +5,7 @@ const Skills = () => {
  return (
   <>
    <div className="skills" id="tech">
-    <p className="tech">Technologies Used</p>
+    <p className="tech">Tech Stack</p>
     <div className="allIcons">
      <div>
       <img

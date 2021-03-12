@@ -1,25 +1,26 @@
 .active {
- border-bottom: 1px solid white;
-}
-.linkHome {
- cursor: pointer;
- list-style: none;
- margin-left: 50rem;
- margin-right: 10px;
- color: white;
-}
-
-.links {
- cursor: pointer;
- list-style: none;
- margin-right: 17px;
- color: white;
-}
-
-@media only screen and (max-width: 952px) {
- .navBar {
-  height: 60px;
-  flex-direction: column;
-  text-align: center;
- }
-}
+    border-bottom: 1px solid white;
+   }
+   .linkHome {
+    cursor: pointer;
+    list-style: none;
+    margin-left: 50rem;
+    margin-right: 10px;
+    color: white;
+   }
+   
+   .links {
+    cursor: pointer;
+    list-style: none;
+    margin-right: 17px;
+    color: white;
+   }
+   
+   @media only screen and (max-width: 952px) {
+    .navBar {
+     height: 60px;
+     flex-direction: column;
+     text-align: center;
+    }
+   }
+   
