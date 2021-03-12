@@ -1,4 +1,87 @@
-.active {
+.nav {
+ background-color: grey;
+ display: flex;
+ position: fixed;
+ z-index: 1;
+ width: 100%;
+ cursor: pointer;
+ justify-content: space-around;
+ min-height: 12vh;
+ color: white;
+ align-items: center;
+}
+
+.list {
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+ width: 50%;
+}
+
+* .active {
+ border-bottom: 1px solid white;
+ color: yellow;
+ text-decoration: none;
+}
+
+.active:hover {
+ color: yellow;
+ text-decoration: none;
+}
+
+.brown {
+ display: flex;
+ color: white;
+}
+
+.brown:hover {
+ text-decoration: none;
+}
+
+.hamburgerToggle {
+ cursor: pointer;
+ color: white;
+ display: none;
+}
+
+.cross {
+ display: none;
+}
+
+@media screen and (max-width: 850px) {
+ body {
+  overflow-x: hidden;
+ }
+ .hamburgerToggle {
+  display: block;
+ }
+ .list {
+  position: absolute;
+  transform: translateX(100%);
+  right: 0%;
+  display: flex;
+  justify-content: flex-start;
+ }
+ .links {
+  list-style: none;
+ }
+
+ .brown {
+  display: none;
+ }
+
+ .active {
+  display: block;
+ }
+}
+
+@media screen and (min-width:851px) {
+    . {
+        display: block;
+    }
+}
+
+/* .active {
     border-bottom: 1px solid white;
     color: yellow;
     text-decoration: none;
@@ -37,6 +120,11 @@
    .hamburger:focus {
        outline: none;
    }
+
+   .navbar {
+       background: grey;
+       position: fixed;
+   } */
 /* 
    @media only screen and (max-width: 952px) {
     .navBar {
@@ -46,8 +134,7 @@
     }
    } */
 
-   
-   /* @media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
        .navBar {
            display: none;
        }
@@ -59,7 +146,7 @@
        }
     } */
 
-    .hamburger.open .bars {
+/* .hamburger.open .bars {
         transform: translate(2rem);
         background-color: transparent;
         
@@ -77,4 +164,4 @@
         .hamburger {
             display: block;
         }
-    }
+    } */

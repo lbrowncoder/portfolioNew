@@ -1,18 +1,29 @@
-.work {
+/* .work {
  display: flex;
  flex-wrap: wrap;
  height:fit-content;
- justify-content: space-evenly;
+ justify-content: center;
  background-color: white;
  min-height: 100vh;
  padding-top: 3rem;
  padding-bottom: 3rem;
  background-color: lightgray;
-}
+} */
 
 .portfolio {
- text-align: center;
- padding-top: 3rem;
+text-align: center;
+padding-top: 12vh;
+}
+
+.work {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100%;
+    align-items: center;
+    padding-bottom: 2rem;
 }
 
 .card-title {
@@ -57,5 +68,12 @@ border-style: double;
 @media screen and (max-width: 760px) {
     .card {
        margin-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .portfolio {
+     padding-top: 160px;
     }
 }

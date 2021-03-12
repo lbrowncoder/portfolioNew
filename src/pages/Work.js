@@ -3,13 +3,12 @@ import "../pages/Work.css";
 import Quiz from "../images/quiz.jpg";
 import bookcase from "../images/bookcase.JPG";
 import eggshells from "../images/welcome.jpg";
-import VideoPlayer from "react-video-js-player";
 
 const Work = () => {
  return (
   <>
-   <div className="mainport" id="work">
-    <h1 className="portfolio">My Portfolio</h1>
+   <div className="mainport" id="work" >
+   <h1 className="portfolio">My Portfolio</h1>
     <div className="work">
      <div class="card" style={{ width: "18rem" }}>
       <h5 class="card-title">Eggshells</h5>
