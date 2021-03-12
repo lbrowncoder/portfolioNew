@@ -1,28 +1,37 @@
 .skills {
-display: flex;
-flex-direction: column;
-justify-content: center;
-min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ min-height: 100vh;
 }
 
-
 .tech {
-display: flex;
-justify-content: center;
-font-size: 2rem;
-margin-bottom: 7rem;
+ display: flex;
+ justify-content: center;
+ font-size: 2rem;
+ margin-bottom: 7rem;
 }
 
 .allIcons {
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
 }
 
- 
 .techUsed {
-justify-content: space-evenly; 
+ justify-content: space-evenly;
  margin-top: 20px;
  font-size: 1.2rem;
  font-weight: bold;
-} 
+}
+
+@media screen and (max-width: 600px) {
+ .allIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .techUsed {
+    display: flex;
+ }
+}

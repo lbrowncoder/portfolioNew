@@ -36,9 +36,6 @@
 .comp {
  background: url(../images/technology.jpg) no-repeat center center fixed;
  background-size: cover;
- /* margin-top: 50px;
- min-width: 100%;
- min-height: 100%; */
 }
 
 @media screen and (min-width: 300px) {

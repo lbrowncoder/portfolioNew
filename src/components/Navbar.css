@@ -1,6 +1,14 @@
 .active {
     border-bottom: 1px solid white;
+    color: yellow;
+    text-decoration: none;
    }
+
+   .active:hover{
+       color: yellow;
+       text-decoration: none;
+   }
+
    .linkHome {
     cursor: pointer;
     list-style: none;
@@ -16,11 +24,57 @@
     color: white;
    }
    
+   .hamburger {
+       background-color: transparent;
+       border:0;
+       color: white;
+       font-size:20px;
+       cursor: pointer;
+       display: none;
+       z-index: 1;
+   }
+
+   .hamburger:focus {
+       outline: none;
+   }
+/* 
    @media only screen and (max-width: 952px) {
     .navBar {
      height: 60px;
      flex-direction: column;
      text-align: center;
     }
-   }
+   } */
+
    
+   /* @media screen and (max-width: 650px) {
+       .navBar {
+           display: none;
+       }
+       .hamburger {
+           display: block;
+       }
+       .container {
+           display: none;
+       }
+    } */
+
+    .hamburger.open .bars {
+        transform: translate(2rem);
+        background-color: transparent;
+        
+    }
+    @media screen and (max-width: 768px) {
+        .links {
+            display: none;
+            flex-direction: column;
+        }
+
+        .navbar-nav.show {
+            display: flex;
+        }
+
+        .hamburger {
+            display: block;
+        }
+    }

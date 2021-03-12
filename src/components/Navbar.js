@@ -1,6 +1,7 @@
 import React from "react";
-import { Link, Element } from "react-scroll";
+import { Link } from "react-scroll";
 import "../components/Navbar.css";
+import * as FaIcons from "react-icons/fa";
 
 const NavBar = () => {
  return (
@@ -10,8 +11,11 @@ const NavBar = () => {
      <a class="navbar-brand text-white" href="#">
       Lamara Brown
      </a>
-     <ul class="navbar-nav">
-      <li className="links">
+     <ul className="navbar-nav">
+         <button className="hamburger">
+         <FaIcons.FaBars className="hamburger" size='25px' />
+         </button>
+      <li className="links" id="links">
        <Link
         activeClass="active"
         to="home"
@@ -35,7 +39,6 @@ const NavBar = () => {
         About
        </Link>
       </li>
-
       <li className="links">
        <Link
         activeClass="active"
