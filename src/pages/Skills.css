@@ -34,11 +34,19 @@ display: flex;
  }
  .techUsed {
     display: flex;
- }
+   }
+
 }
 
 @media screen and (max-width: 850px) {
    .tech {
    padding-top:160px;
+   }
+    .allIcons {
+      flex-wrap:wrap;
+      justify-content: center;
+      flex:1;
+
+
    }
 }
