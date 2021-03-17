@@ -8,7 +8,7 @@ const Work = () => {
  return (
   <>
    <div className="mainport" id="work" >
-   <h1 className="portfolio">My Portfolio</h1>
+   <h1 className="portfolio">Portfolio</h1>
     <div className="work">
      <div class="card" style={{ width: "18rem" }}>
       <h5 class="card-title">Eggshells</h5>

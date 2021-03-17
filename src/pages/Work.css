@@ -13,6 +13,7 @@
 .portfolio {
 text-align: center;
 padding-top: 12vh;
+padding-bottom: 1.5rem;
 }
 
 .work {
@@ -20,11 +21,17 @@ padding-top: 12vh;
     height: fit-content;
     flex-direction: row;
     justify-content: space-evenly;
+    /* justify-content: center; */
     flex-wrap: wrap;
     min-height: 100%;
+    padding-bottom: 12vh;
     align-items: center;
-    padding-bottom: 2rem;
 }
+
+/* .work-child {
+    display: flex;
+    align-items: center;
+} */
 
 .card-title {
  text-align: center;
@@ -72,8 +79,11 @@ border-style: double;
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 864px) {
     .portfolio {
      padding-top: 160px;
     }
-}
+    .card {
+        margin-bottom: 1rem;
+     }
+    }

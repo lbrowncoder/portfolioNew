@@ -5,7 +5,7 @@
  z-index: 1;
  width: 100%;
  cursor: pointer;
- justify-content: space-around;
+ justify-content: space-between;
  min-height: 12vh;
  color: white;
  align-items: center;
@@ -16,13 +16,15 @@
  display: flex;
  justify-content: space-around;
  width: 50%;
+ margin-bottom: 0;
 }
 
 * .active {
- border-bottom: 1px solid white;
+ /* border-bottom: 1px solid white; */
  color: yellow;
  text-decoration: none;
 }
+
 
 .active:hover {
  color: yellow;
@@ -32,6 +34,9 @@
 .brown {
  display: flex;
  color: white;
+ font-size: 1.2rem;
+ margin-left: 1rem;
+ margin-bottom: 0;
 }
 
 .brown:hover {
@@ -48,12 +53,42 @@
  display: none;
 }
 
+.links {
+ font-size: 1.2rem;
+ position: relative;
+ border: none;
+ --border-size: 2px;
+ background-color: transparent;
+ color: white;
+}
+
+.links::before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+    border: none;
+    transition: top, left, right, bottom, 100ms ease-in-out;
+}
+.links:hover::before,
+.links:focus::before {
+    /* border: solid white; */
+    border-top: solid white;
+    left: 0;
+    right:0;
+    border-bottom: solid white;
+}
+
 @media screen and (max-width: 850px) {
  body {
   overflow-x: hidden;
  }
  .hamburgerToggle {
   display: block;
+  margin-right: 2rem;
  }
  .list {
   position: absolute;
@@ -62,24 +97,53 @@
   display: flex;
   justify-content: flex-start;
  }
- .links {
+ /* .links {
   list-style: none;
- }
+ } */
 
+ .links {
+    list-style: none;
+    font-size: 1.2rem;
+    position: relative;
+    border: none;
+    --border-size: 2px;
+    background-color: transparent;
+    color: white;
+   }
+   
+   .links::before {
+       content: '';
+       position: absolute;
+       top:0;
+       left:0;
+       right:0;
+       bottom: 0;
+       z-index: -1;
+       border: none;
+       transition: top, left, right, bottom, 100ms ease-in-out;
+   }
+   .links:hover::before,
+   .links:focus::before {
+       /* border: solid white; */
+       border-top: solid white;
+       left: 0;
+       right:0;
+       border-bottom: solid white;
+   }
  .brown {
   display: none;
  }
-
  .active {
   display: block;
  }
+
 }
 
-@media screen and (min-width:851px) {
-    . {
-        display: block;
-    }
-}
+/* @media screen and (min-width: 851px) {
+ . {
+  display: block;
+ }
+} */
 
 /* .active {
     border-bottom: 1px solid white;

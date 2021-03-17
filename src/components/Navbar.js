@@ -6,6 +6,7 @@ import "../components/Navbar.css";
 
 const NavBar = () => {
  const [navLinkOpen, navLinkToggle] = useState(false);
+ const breakpoint = 850;
 
  const handleLinkToggle = () => {
   navLinkToggle(!navLinkOpen);
@@ -18,6 +19,14 @@ const NavBar = () => {
   }
   return classes;
  };
+
+//  const renderOpenClasses = () => {
+//     let open = "list";
+
+//  if (navLinkOpen < breakpoint)  {
+//     return open
+//   }
+// };
 
  return (
   <div>
@@ -89,7 +98,7 @@ const NavBar = () => {
     </ul>
     <div onClick={handleLinkToggle} className="hamburgerToggle">
      {/* <i className="fas fa-bars fa-lg"></i> */}
-     <FaIcons.FaBars className="bars" size="25px" />
+     <FaIcons.FaBars className="bars" size="55px" />
      <ImIcons.ImCross size="25px" className="cross" />
     </div>
    </nav>
