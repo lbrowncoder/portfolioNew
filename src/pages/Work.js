@@ -26,6 +26,7 @@ const Work = () => {
        <a
         href="https://github.com/lbrowncoder/black-codher-personal-project"
         target="_blank"
+        rel="noreferrer"
         class="card-link"
        >
         Github
@@ -40,7 +41,7 @@ const Work = () => {
      </div>
      <div class="card" style={{ width: "18rem" }}>
       <h5 class="card-title">Bookshop</h5>
-      <img class="card-img-top" src={bookcase} alt="Card image cap" />
+      <img class="card-img-top" src={bookcase} alt="Card cap" />
       <div class="card-body">
        <p class="card-text">
         Using Google API, customers can search for their favourite books and
@@ -51,6 +52,7 @@ const Work = () => {
        <a
         href="https://lbbookshop.netlify.app/"
         target="_blank"
+        rel="noreferrer"
         class="card-link"
        >
         Live demo
@@ -58,6 +60,7 @@ const Work = () => {
        <a
         href="https://github.com/lbrowncoder/bookcase"
         target="_blank"
+        rel="noreferrer"
         class="card-link"
        >
         Github
@@ -80,12 +83,13 @@ const Work = () => {
        </p>
       </div>
       <div class="card-body">
-       <a href="https://lbquiz.netlify.app/" target="_blank" class="card-link">
+       <a href="https://lbquiz.netlify.app/" target="_blank" rel="noreferrer" class="card-link">
         Live demo
        </a>
        <a
         href="https://github.com/lbrowncoder/Quiz"
         target="_blank"
+        rel="noreferrer"
         class="card-link"
        >
         Github

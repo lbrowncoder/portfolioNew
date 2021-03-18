@@ -1,7 +1,7 @@
 import React from "react";
 import "../pages/Home.css";
 import Typical from "react-typical";
-import comp from "../images/comp.jpg";
+// import comp from "../images/comp.jpg";
 
 const Home = () => {
  return (
@@ -15,7 +15,7 @@ const Home = () => {
       {" "}
       I'm a{" "}
       <Typical
-       steps={["Full Stack Developer", 1000, "Video Editor", 1000]}
+       steps={["Full Stack Developer", 2000, "Video Editor", 2500]}
        loop={Infinity}
        wrapper="b"
        className="job"

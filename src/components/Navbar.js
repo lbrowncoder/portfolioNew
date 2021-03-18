@@ -6,7 +6,6 @@ import "../components/Navbar.css";
 
 const NavBar = () => {
  const [navLinkOpen, navLinkToggle] = useState(false);
- const breakpoint = 850;
 
  const handleLinkToggle = () => {
   navLinkToggle(!navLinkOpen);
@@ -31,7 +30,7 @@ const NavBar = () => {
  return (
   <div>
    <nav className="nav">
-    <a href="#">
+    <a href="/">
      <p className="brown">Lamara Brown</p>
     </a>
     <ul className={renderClasses()}>
