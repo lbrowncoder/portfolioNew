@@ -1,0 +1,14 @@
+.demo {
+    margin-left: 3rem;
+ ;
+   }
+
+
+      @media screen and (max-width: 850px) {
+      .demo{
+      width:max-content;
+      height:max-content;
+ 
+      }
+
+      }

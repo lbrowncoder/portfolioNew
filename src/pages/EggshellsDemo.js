@@ -1,11 +1,11 @@
 import React from "react";
 import VideoPlayer from "react-video-js-player";
 import eggshells from "../videos/demo1.mp4";
-import "../App.css";
+import "./EggshellsDemo.css"
 
 const EggshellsDemo = () => {
  return (
-  <div>
+  <div class="vidPlayer">
    <VideoPlayer
     src={eggshells}
     width="1100"
