@@ -30,9 +30,7 @@ const NavBar = () => {
  return (
   <div>
    <nav className="nav">
-    <a href="/">
      <p className="brown">Lamara Brown</p>
-    </a>
     <ul className={renderClasses()}>
      <li className="links" id="links">
       <Link

@@ -133,6 +133,7 @@
    }
  .brown {
   display: none;
+  text-decoration: none;
  }
  .active {
   display: block;
